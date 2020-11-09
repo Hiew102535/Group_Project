@@ -1,0 +1,130 @@
+.center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+nav table{
+	width:100%;
+}
+
+nav table,th{
+	border:2px solid rgb(254,203,0);
+	border-spacing:0px;
+	border-collapse:collapse;
+	font-family:League Gothic,Arial;
+	font-size:20pt;
+	color:rgb(254,203,0);
+	background-color:rgb(0,49,151);
+}
+
+nav a:link{
+	color:rgb(254,203,0);
+	text-decoration:none;
+}
+
+nav a:visited{
+	color:rgb(254,203,0);
+	text-decoration:none;
+}
+
+nav a:hover{
+	color:white;
+	text-decoration:none;
+}
+
+footer hr,address{
+	width:100%;
+	text-align:center;
+}
+
+#nav2 table th{
+	border:2px solid rgb(0,49,151);
+	border-spacing:0px;
+	border-collapse:collapse;
+	font-family:League Gothic,Arial;
+	font-size:20pt;
+	color:rgb(0,49,151);
+	background-color:rgb(254,203,0);
+}
+			
+#nav2 a:link{
+	color:rgb(0,49,151);
+	text-decoration:none;
+
+}
+
+#nav2 a:visited{
+	color:rgb(0,49,151);
+	text-decoration:none;
+}
+
+.normalt{
+	width:100%;
+}
+
+section h1{
+	color:rgb(0,49,151);
+	font-family:League Gothic,Arial;
+	font-size: 50pt;
+	text-align:center;
+}
+
+section h2{
+	text-align:center;
+	font-family:League Gothic,Arial;
+	font-size:35pt;
+	color:rgb(0,49,151);
+}
+
+p{
+	text-align:center;
+	color:black;
+	font-family:League Gothic,Arial;
+	font-size:20pt;
+	margin-block-end:0em;
+}
+
+.va td{
+	vertical-align:top;
+}
+
+.price{
+	border:none;
+	background-color:transparent;
+	outline:none;
+	text-align:center;
+	color:black;
+	font-family:League Gothic,Arial;
+	font-size:20pt;
+	width:50	px;
+}
+
+#gtotal{
+	border: 3px solid rgb(0,49,151);
+	width:30%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#grandtotal{
+	margin-block-end:0em;
+	margin-block-start:0em;
+}
+
+#totalPrice{
+	color:black;
+	font-family:League Gothic,Arial;
+	font-size:20pt;
+	border:none;
+	text-align:center;
+	vertical-align:center;
+	background-color:transparent;
+	outline:none;
+}
+
+td{
+	text-align:center;
+}

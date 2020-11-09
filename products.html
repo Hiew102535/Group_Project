@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<!--
+			Author: Lee Jun Jie
+			Page3 : Products
+		-->
+		
+		<title>Products</title>
+		
+		<link href="style2products.css" rel="stylesheet" type="text/css"/>
+		<link href="colours.css" rel="stylesheet" type="text/css"/>
+		<script src="calculatePrice.js"></script>
+		
+	</head>
+	
+	<body>
+	
+		<header>
+			<a href="Home.html">
+				<img src="Ekia-Logo0000.png" alt="Welcome to EKIA!" class="center" width="250" height="100"/>
+			</a>
+			<hr/>
+		</header>
+		
+		<nav>
+			<table class="normalt">
+				<tr>
+					<th><a href="abtus.html">About Us</a></th>
+					<th><a href="products.html">Products</a></th>
+					<th><a href="promo.html">Promotions</a></th>
+					<th><a href="cart.html">Cart</a></th>
+					<th><a href="help.html">Help</a></th>
+					<th><a href="login.html">Register/Log In</a></th>
+				</tr>
+			</table>
+			<hr/>
+		</nav>
+		
+		<nav id="nav2">
+			<table class="normalt">
+				<tr>
+					<th><a href="#tablesh1">TABLES</a></th>
+					<th><a href="#chairsh1">CHAIRS</a></th>
+					<th><a href="#sofash1">SOFAS</a></th>
+					<th><a href="#bedsh1">BEDS</a></th>
+					<th><a href="#storageh1">STORAGE</a></th>
+					<th><a href="#acch1">ACCESSORIES</a></th>
+				</tr>
+			</table>
+			<hr/>
+		</nav>
+		
+		<div id="everything">
+		<form name="order" id="order" method="post">
+		
+		<section>
+			<h1 id="tablesh1">TABLES</h1>
+				<table class="normalt">
+					<tr>
+						<td>
+							<img src="table1.png" alt="Dining Table"/>
+							<h2>T1 Dining Table</h2>
+							<p>
+								<b>Size</b>
+								<br/>
+								150cm x 40cm x 45cm
+								<br/>
+								<br/>
+								<b>Material</b>
+								<br/>
+								Laminated Solid Wood
+								<br/>
+								<br/>
+								<b>Colours</b>
+								<br/>
+							</p>
+									<table class="colours">
+										<tr>
+											<td id="black"></td>
+											<td id="white"></td>
+											<td id="beige"></td>
+										</tr>
+									</table>
+							<p>	
+								<b>Price</b>
+								<br/>
+								RM<input type="text" name="price" class="price" id="t1" value="899"/>
+								<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtyt1" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+							</p>
+						</td>
+						<td>
+							<img src="table2.png" alt="Coffee Table"/>
+							<h2>T2 Coffee Table</h2>
+							<p>
+								<b>Size</b>
+								<br/>
+								80cm x 40cm x 45cm
+								<br/>
+								<br/>
+								<b>Material</b>
+								<br/>
+								Linoleum
+								<br/>
+								<br/>
+								<b>Colours</b>
+								<br/>
+							</p>
+									<table class="colours">
+										<tr>
+											<td id="black"></td>
+											<td id="white"></td>
+											<td id="beige"></td>
+										</tr>
+									</table>
+							<p>		
+								<b>Price</b>
+								<br/>
+								RM<input type="text" name="price" class="price" id="t2" value="499"/>
+								<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtyt2" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+							</p>
+						</td>
+						<td>
+							<img src="table3.png" alt="Desk" width="420" height="300"/>
+							<h2>T3 Desk</h2>
+							<p>
+								<b>Size</b>
+								<br/>
+								80cm x 150cm x 70cm
+								<br/>
+								<br/>
+								<b>Material</b>
+								<br/>
+								Laminated Solid Wood
+								<br/>
+								<br/>
+								<b>Colours</b>
+								<br/>
+							</p>
+									<table class="colours">
+										<tr>
+											<td id="black"></td>
+											<td id="white"></td>
+											<td id="beige"></td>
+										</tr>
+									</table>
+							<p>		
+								<b>Price</b>
+								<br/>
+								RM<input type="text" name="price" class="price" id="t3" value="649"/>
+								<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtyt3" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+							</p>
+						</td>
+					</tr>
+				</table>
+		</section>
+		
+		<section>
+			<h1 id="chairsh1">CHAIRS</h1>
+				<table class="normalt">
+					<tr>
+						<td>
+							<img src="chairC.png" alt="Wooden Chair"/>
+						</td>
+						<td>
+							<img src="chairB.png" alt="Black Chair" width="450" height="320"/>
+						</td>
+						<td>
+							<img src="chairA.png" alt="Wooden Stool" width="400" height="270"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h2>C1 Wooden Chair</h2>
+						</td>
+						<td>
+							<h2>C2 Plastic Chair</h2>
+						</td>
+						<td>
+							<h2>C3 Wooden Stool</h2>
+						</td>
+					</tr>
+					<tr class="va">
+						<td>
+							<p>
+								<b>Size</b>
+								<br/>
+								60cm x 75cm x 50cm
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Size</b>
+								<br/>
+								150cm x 40cm x 45cm
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Size</b>
+								<br/>
+								50cm x 130cm x 45cm
+								<br/>
+								OR
+								<br/>
+								50cm x 100cm x 45cm
+								<br/>
+							</p>
+						</td>
+					</tr>
+					<tr class="va">
+						<td>
+							<p>
+								<b>Material</b>
+								<br/>
+								Solid Wood
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Material</b>
+								<br/>
+								Seat - Plastic
+								<br/>
+								Legs - Solid Wood
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Material</b>
+								<br/>
+								Solid Wood
+								<br/>
+							</p>
+						</td>
+					</tr>
+					<tr class="va">
+						<td>
+							<p>
+								<b>Colours</b>
+								<br/>
+								<table class="colours">
+									<tr>
+										<td id="oak"></td>
+										<td id="beige"></td>
+									</tr>
+								</table>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Colours</b>
+								<br/>
+								<table class="colours">
+									<tr>
+										<td id="black"></td>
+										<td id="white"></td>
+										<td id="grey"></td>
+										<td id="red"></td>
+										<td id="yellow"></td>
+										<td id="blue"></td>
+									</tr>
+								</table>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Colours</b>
+								<br/>
+							</p>
+								<table class="colours">
+									<tr>
+										<td id="oak"></td>
+										<td id="beige"></td>
+									</tr>
+								</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>		
+								<b>Price</b>
+								<br/>
+								RM<input type="text" name="price" class="price" id="c1" value="89"/>
+								<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtyc1" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>		
+								<b>Price</b>
+								<br/>
+								RM<input type="text" name="price" class="price" id="c2" value="89"/>
+								<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtyc2" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Price</b>
+								<br/>
+								RM<input type="text" name="price" class="price" id="c3" value="129"/>
+								<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtyc3" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+							</p>
+						</td>
+					</tr>
+				</table>
+		</section>
+		
+		<section>
+			<h1 id="sofash1">SOFAS</h1>
+			<table class="normalt">
+				<tr>
+					<td>
+						<img src="sofa.png" alt="Foam Sofa" width="450" height="225"/>
+					</td>
+					<td>
+						<img src="sofaB.png" alt="Textile Sofa" width="450" height="225"/>
+					</td>
+					<td>
+						<img src="sofaC.jpg" alt="Mini Sofa" width="400" height="400"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2>S1 Foam Sofa</h2>
+					</td>
+					<td>
+						<h2>S2 Textile Sofa</h2>
+					</td>
+					<td>
+						<h2>S3 Mini Sofa</h2>
+					</td>
+				</tr>
+				<tr class="va">
+						<td>
+							<p>
+								<b>Size</b>
+								<br/>
+								200cm x 90cm x 45cm
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Size</b>
+								<br/>
+								230cm x 90cm x 70cm
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Size</b>
+								<br/>
+								180cm x 75cm x 45cm
+								<br/>
+							</p>
+						</td>
+					</tr>
+					<tr class="va">
+						<td>
+							<p>
+								<b>Material</b>
+								<br/>
+								Fabric - Synthetic Leather
+								<br/>
+								Cushion - Foam
+								<br/>
+								Base - Solid Wood
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Material</b>
+								<br/>
+								Fabric - Kvadrat Textile
+								<br/>
+								Cushion - Foam
+								<br/>
+								Base - Plastic
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Material</b>
+								<br/>
+								Fabric - Polyester
+								<br/>
+								Cushion - Foam
+								<br/>
+								Base - Solid Wood
+								<br/>
+							</p>
+						</td>
+					</tr>
+					<tr class="va">
+						<td>
+							<p>
+								<b>Colours</b>
+								<br/>
+								<table class="colours">
+									<tr>
+										<td id="black"></td>
+									</tr>
+								</table>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Colours</b>
+								<br/>
+								<table class="colours">
+									<tr>
+										<td id="grey"></td>
+										<td id="beige"></td>
+									</tr>
+								</table>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Colours</b>
+								<br/>
+							</p>
+								<table class="colours">
+									<tr>
+										<td id="red"></td>
+										<td id="orange"></td>
+										<td id="yellow"></td>
+										<td id="blue2"></td>
+										<td id="green"></td>
+										<td id="black"></td>
+									</tr>
+								</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>		
+								<b>Price</b>
+								<br/>
+								RM<input type="text" name="price" class="price" id="s1" value="999"/>
+								<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtys1" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>		
+								<b>Price</b>
+								<br/>
+								RM<input type="text" name="price" class="price" id="s2" value="899"/>
+								<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtys2" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Price</b>
+								<br/>
+								RM<input type="text" name="price" class="price" id="s3" value="699"/>
+								<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtys3" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+							</p>
+						</td>
+					</tr>
+			</table>
+		</section>
+		
+		<section>
+			<h1 id="bedsh1">BEDS</h1>
+			<table class="normalt">
+				<tr>
+					<td>
+						<img src="bed1.jfif" alt="Poster Bed" width="450" height="300"/>
+					</td>
+					<td>
+						<img src="bed2.jfif" alt="Upholstered Bed" width="450" height="300"/>
+					</td>
+					<td>
+						<img src="bed3.jfif" alt="Metal Bed" width="400" height="267"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2>B1 Poster Bed</h2>
+					</td>
+					<td>
+						<h2>B2 Upholstered Bed</h2>
+					</td>
+					<td>
+						<h2>B3 Metal Bed</h2>
+					</td>
+				</tr>
+				<tr class="va">
+						<td>
+							<p>
+								<b>Size</b>
+								<br/>
+								King
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Size</b>
+								<br/>
+								King
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Size</b>
+								<br/>
+								Queen
+								<br/>
+							</p>
+						</td>
+					</tr>
+					<tr class="va">
+						<td>
+							<p>
+								<b>Material</b>
+								<br/>
+								Frame - Solid Oak Wood
+								<br/>
+								Mattress - Foam
+								<br/>
+								Cover - Wool
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Material</b>
+								<br/>
+								Frame - Plastic Base with Foam Cushion
+								<br/>
+								Mattress - Foam
+								<br/>
+								Cover - Cotton
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Material</b>
+								<br/>
+								Frame - Metal
+								<br/>
+								Mattress - Foam
+								<br/>
+								Cover - Cotton
+								<br/>
+							</p>
+						</td>
+					</tr>
+					<tr class="va">
+						<td>
+							<p>
+								<b>Colours</b>
+								<br/>
+								<table class="colours">
+									<tr>
+										<td id="brown"></td>
+									</tr>
+								</table>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Colours</b>
+								<br/>
+								<table class="colours">
+									<tr>
+										<td id="grey"></td>
+									</tr>
+								</table>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Colours</b>
+								<br/>
+							</p>
+								<table class="colours">
+									<tr>
+										<td id="white"></td>
+										<td id="black"></td>
+									</tr>
+								</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>		
+								<b>Price</b>
+								<br/>
+								RM<input type="text" name="price" class="price" id="b1" value="1599"/>
+								<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtyb1" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>		
+								<b>Price</b>
+								<br/>
+								RM<input type="text" name="price" class="price" id="b2" value="1299"/>
+								<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtyb2" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+							</p>
+						</td>
+						<td>
+							<p>
+								<b>Price</b>
+								<br/>
+								RM<input type="text" name="price" class="price" id="b3" value="999"/>
+								<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtyb3" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+							</p>
+						</td>
+					</tr>
+			</table>
+		</section>
+			
+		<section>
+			<h1 id="storageh1">STORAGE</h1>
+			<table class="normalt">
+				<tr>
+					<td>
+						<img src="store1.png" alt="Cabinet" width="450" height="225"/>
+					</td>
+					<td>
+						<img src="store4.png" alt="Storage Unit" width="450" height="225"/>
+					</td>
+					<td>
+						<img src="store3.png" alt="Drawers" width="400" height="300"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2>ST1 Cabinet</h2>
+					</td>
+					<td>
+						<h2>ST2 Storage Unit</h2>
+					</td>
+					<td>
+						<h2>ST3 Drawers</h2>
+					</td>
+				</tr>
+				<tr class="va">
+					<td>
+						<p>
+							<b>Size</b>
+							<br/>
+							85cm x 45cm x 200cm
+							<br/>
+						</p>
+					</td>
+					<td>
+						<p>
+							<b>Size</b>
+							<br/>
+							130cm x 45cm x 130cm
+							<br/>
+						</p>
+					</td>
+					<td>
+						<p>
+							<b>Size</b>
+							<br/>
+							200cm x 50cm x 70cm
+							<br/>
+						</p>
+					</td>
+				</tr>
+				<tr class="va">
+					<td>
+						<p>
+							<b>Material</b>
+							<br/>
+							Cabinet - Solid Wood
+							<br/>
+						</p>
+					</td>
+					<td>
+						<p>
+							<b>Material</b>
+							<br/>
+							Fronts - Laminate
+							<br/>
+							Cabinet - Solid Wood
+							<br/>
+						</p>
+					</td>
+					<td>
+						<p>
+							<b>Material</b>
+							<br/>
+							Fronts - Laminate
+							<br/>
+							Cabinet - Solid Wood
+							<br/>
+						</p>
+					</td>
+				</tr>
+				<tr class="va">
+					<td>
+						<p>
+							<b>Colours</b>
+							<br/>
+							<table class="colours">
+								<tr>
+									<td id="oak"></td>
+									<td id="beige"></td>
+									<td id="brown"></td>
+									<td id="black"></td>
+								</tr>
+							</table>
+						</p>
+					</td>
+					<td>
+						<p>
+							<b>Colours</b>
+							<br/>
+							<table class="colours">
+								<tr>
+									<td id="white"></td>
+									<td id="oak"></td>
+									<td id="grey"></td>
+									<td id="pastelblue"></td>
+								</tr>
+							</table>
+						</p>
+					</td>
+					<td>
+						<p>
+							<b>Colours</b>
+							<br/>
+						</p>
+							<table class="colours">
+								<tr>
+									<td id="oak"></td>
+									<td id="grey"></td>
+									<td id="pastelgreen"></td>
+									<td id="pastelblue"></td>
+								</tr>
+							</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>		
+							<b>Price</b>
+							<br/>
+							RM<input type="text" name="price" class="price" id="st1" value="599"/>
+							<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtyst1" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+						</p>
+					</td>
+					<td>
+						<p>		
+							<b>Price</b>
+							<br/>
+							RM<input type="text" name="price" class="price" id="st2" value="799"/>
+							<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtyst2" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+						</p>
+					</td>
+					<td>
+						<p>
+							<b>Price</b>
+							<br/>
+							RM<input type="text" name="price" class="price" id="st3" value="299"/>
+							<br/>
+							<br/>
+							<b>Quantity</b>
+							<br/>
+							<select name="qty" id="qtyst3" onchange="calculatePrice();">
+								<script type="text/JavaScript">
+									var i;
+									for(i=0; i<=50; i++){
+										document.write("<option value='" + i + "'>" + i + "</option>")
+										}
+								</script>
+							</select>
+							<br/>
+						</p>
+					</td>
+				</tr>
+			</table>
+		</section>
+			
+		<section>
+			<h1 id="acch1">ACCESSORIES</h1>
+			<table class="normalt">
+				<tr>
+					<td>
+						<img src="mirror.png" alt="Mirror" width="450" height="225"/>
+					</td>
+					<td>
+						<img src="clock.png" alt="Clock" width="450" height="225"/>
+					</td>
+					<td>
+						<img src="clothesrack.png" alt="Clothes Rack" width="400" height="200"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2>A1 Mirror</h2>
+					</td>
+					<td>
+						<h2>A2 Clock</h2>
+					</td>
+					<td>
+						<h2>A3 Clothes Rack</h2>
+					</td>
+				</tr>
+				<tr class="va">
+					<td>
+						<p>
+							<b>Size</b>
+							<br/>
+							30cm x 10cm x 20cm
+							<br/>
+						</p>
+					</td>
+					<td>
+						<p>
+							<b>Diameter</b>
+							<br/>
+							22cm
+							<br/>
+						</p>
+					</td>
+					<td>
+						<p>
+							<b>Size</b>
+							<br/>
+							103cm x 183cm
+							<br/>
+						</p>
+					</td>
+				</tr>
+				<tr class="va">
+					<td>
+						<p>
+							<b>Material</b>
+							<br/>
+							Base - Solid Wood
+							<br/>
+						</p>
+					</td>
+					<td>
+						<p>
+							<b>Material</b>
+							<br/>
+							Solid Wood
+							<br/>
+						</p>
+					</td>
+					<td>
+						<p>
+							<b>Material</b>
+							<br/>
+							Metal
+							<br/>
+						</p>
+					</td>
+				</tr>
+				<tr class="va">
+					<td>
+						<p>
+							<b>Colours</b>
+							<br/>
+							<table class="colours">
+								<tr>
+									<td id="beige"></td>
+								</tr>
+							</table>
+						</p>
+					</td>
+					<td>
+						<p>
+							<b>Colours</b>
+							<br/>
+							<table class="colours">
+								<tr>
+									<td id="white"></td>
+									<td id="oak"></td>
+									<td id="beige"></td>
+									<td id="black"></td>
+								</tr>
+							</table>
+						</p>
+					</td>
+					<td>
+						<p>
+							<b>Colours</b>
+							<br/>
+						</p>
+							<table class="colours">
+								<tr>
+									<td id="white"></td>
+									<td id="black"></td>
+								</tr>
+							</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>		
+							<b>Price</b>
+							<br/>
+							RM<input type="text" name="price" class="price" id="a1" value="89"/>
+							<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtya1" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+						</p>
+					</td>
+					<td>
+						<p>		
+							<b>Price</b>
+							<br/>
+							RM<input type="text" name="price" class="price" id="a2" value="25"/>
+							<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtya2" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+						</p>
+					</td>
+					<td>
+						<p>
+							<b>Price</b>
+							<br/>
+							RM<input type="text" name="price" class="price" id="a3" value="69"/>
+							<br/>
+								<br/>
+								<b>Quantity</b>
+								<br/>
+								<select name="qty" id="qtya3" onchange="calculatePrice();">
+									<script type="text/JavaScript">
+										var i;
+										for(i=0; i<=50; i++){
+											document.write("<option value='" + i + "'>" + i + "</option>")
+											}
+									</script>
+								</select>
+								<br/>
+						</p>
+					</td>
+				</tr>
+			</table>
+		</section>
+		
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		
+		<section>
+		<div id="gtotal">
+			<h1 id="grandtotal">Grand Total</h1>
+			<br/>
+				<input type="text" name="totalPrice" id="totalPrice" placeholder="RM 0.00" readonly />
+				<button type="button" name="btncheck" id="btncheck"><img src="checkout.png" width="20" height="20"/></button>
+				<button type="button" name="btnup" id="btnup" onclick="location.href='products.html'"><img src="up.png" width="20" height="20"/></button>
+			<br/><br/>
+			</div>
+		</section>
+		
+		</form>
+		</div>
+		
+		<footer>
+			<hr/>
+			<address>2020 &#169; EKIA International.</address>
+		</footer>
+	
+	</body>
+	
+</html>

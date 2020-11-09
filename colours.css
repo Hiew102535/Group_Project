@@ -1,0 +1,114 @@
+.colours{
+	width:auto;
+	border:none;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:none;
+	margin-bottom:none;
+	padding:none;
+}
+
+#black{
+	background-color:black;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}
+
+#white{
+	background-color:white;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}
+
+#beige{
+	background-color:#F9D297;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}
+
+#grey{
+	background-color:#B4B4B4;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}
+
+#red{
+	background-color:#BF3535;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}
+
+#yellow{
+	background-color:#F7F015;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}
+
+#blue{
+	background-color:#74BBE7;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}
+
+#oak{
+	background-color:#FCE4C4;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}
+
+#orange{
+	background-color:#FF6700;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}
+
+#green{
+	background-color:#347013;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}
+
+#blue2{
+	background-color:#1E89AE;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}
+
+#brown{
+	background-color:#443000;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}
+
+#pastelblue{
+	background-color:#ADE2F6;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}
+
+#pastelgreen{
+	background-color:#86A160;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}
+
+#navy{
+	background-color:#051242;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<!--
+			Author: Lim Shou Zheng
+			Page6 : Help
+		-->
+		
+		<title>Help</title>
+		
+		<link href="style4help.css" rel="stylesheet" type="text/css"/>
+		<script src="unlockReadonly.js"></script>
+		
+	</head>
+	
+	<body>
+	
+		<header>
+			<a href="Home.html">
+				<img src="Ekia-Logo0000.png" alt="Welcome to EKIA!" class="center" width="250" height="100"/>
+			</a>
+			<hr/>
+		</header>
+		
+		<nav>
+			<table>
+				<tr>
+					<th><a href="abtus.html">About Us</a></th>
+					<th><a href="products.html">Products</a></th>
+					<th><a href="promo.html">Promotions</a></th>
+					<th><a href="cart.html">Cart</a></th>
+					<th><a href="help.html">Help</a></th>
+					<th><a href="login.html">Register/Log In</a></th>
+				</tr>
+			</table>
+			<hr/>
+		</nav>
+		
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<p>
+				At EKIA, we always appreciate your helpful feedback!
+				<br/>
+				Kindly fill in the forms below to get in touch with our online customer service center!
+			</p>
+			<br/>
+			<form name="help" id="help" method="post" onsubmit="return contactValid();">
+				<table>
+					<tr>
+						<td>Name</td>
+						<td>
+							<select>
+								<option selected="selected">Mr.</option>
+								<option>Mrs.</option>
+								<option>Miss</option>
+							</select>
+							<input type="text" name="username" id="username" maxlength="30" autofocus required />
+						</td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td>
+							<input type="email" name="useremail" id="useremail" placeholder="example@gmail.com" required />
+						</td>
+					</tr>
+					<tr>
+						<td>Phone No.</td>
+						<td>
+							<input type="text" name="userphone" id="userphone" placeholder="xxx-xxxxxxx / xx-xxxxxxx" required />
+						</td>
+					</tr>
+					<tr>
+						<td>Feedback</td>
+						<td><textarea name="fback" id="fback" cols="45" rows="5" placeholder="Please state your problem here." required></textarea></td>
+					</tr>
+					<tr>
+						<td>Preferred Contact Method</td>
+						<td>
+							<input type="radio" name="prefer" id="pemail" onclick="unlockReadonly();"/>Email<br/>
+							<input type="radio" name="prefer" id="pphone" onclick="unlockReadonly();"/>Phone<br/>
+							<input type="radio" name="prefer" id="pwhatsapp" onclick="unlockReadonly();"/>WhatsApp<br/>
+							<input type="radio" name="prefer" id="pother" onclick="unlockReadonly();"/>Other &nbsp; &nbsp;
+							<input type="text" name="prefer" id="stateother" placeholder="Please State" readonly onclick="unlockReadonly();"/>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<br/><br/>
+							<input type="submit" name="btnsub" id="btnsub" value="Send"/>
+							<input type="reset" name="btnreset" id="btnreset" value="Clear"/>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</section>
+		
+		<section id="find">
+			<h2>Find Us</h2>
+			<p>
+				Find us on your favourite social media app!
+				<br/>
+				Follow us to keep updated!
+			</p>
+			<table id="socmed">
+				<tr>
+					<td><a href="https://www.facebook.com"><img src="fb.png" alt="Facebook" width="50" height="50"/></a></td>
+					<td><a href="https://www.instagram.com"><img src="ig.png" alt="Instagram" width="50" height="50"/></a></td>
+					<td><a href="https://www.twitter.com"><img src="twitter.png" alt="Twitter" width="50" height="50"/></a></td>
+					<td><a href="https://www.youtube.com"><img src="yt.png" alt="YouTube" width="50" height="50"/></a></td>
+				</tr>
+				<tr>
+					<td>Facebook</td>
+					<td>Instagram</td>
+					<td>Twitter</td>
+					<td>YouTube</td>
+				</tr>
+			</table>
+			<br/>
+			<p>
+				or Email us at <span><a href="mailto:customerservice@ekia.com">customerservice@ekia.com</a></span> for inquiries!
+			</p>
+		</section>
+		
+		<footer>
+			<hr/>
+			<address>2020 &#169; EKIA International.</address>
+		</footer>
+	
+	</body>
+	
+</html>

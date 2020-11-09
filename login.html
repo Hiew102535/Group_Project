@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<!--
+			Author: Hiew Bing Jie 
+			Page7 : Register/Log In
+		-->
+		
+		<link href="style1.css" rel="stylesheet" type="text/css"/>
+		
+		<style>
+			
+			body{
+				background-image:linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),url(login.jpg);
+				background-repeat:no-repeat;
+				background-size:cover;
+			}
+			
+			form{
+				font-family:Arial;
+				font-size:12pt;
+				font-weight:bold;
+			}
+			
+			#register{
+				float:left;
+				width:50%;
+			}
+
+			#register h1{
+				color:rgb(0,49,151);
+				font-family:League Gothic,Arial;
+				font-size: 50pt;
+				margin:0px;
+			}
+
+			#register p{
+				text-align:left;
+				font-size:20pt;
+				font-family:League Gothic,Arial;
+				color:black;
+			}
+			
+			textarea{
+				font-family:Arial;
+			}
+
+			#LogIn{
+				float:right;
+				width:50%;
+			}
+
+			#LogIn h1{
+				color:rgb(0,49,151);
+				font-family:League Gothic,Arial;
+				font-size: 50pt;
+				margin:0px;
+			}
+
+			#LogIn p{
+				text-align:left;
+				font-size:20pt;
+				font-family:League Gothic,Arial;
+				color:black;
+			}
+			
+			span{
+				color:red;
+			}
+		
+		</style>
+		
+		<script type="text/JavaScript" src="formValidation.js"></script>
+		
+	</head>
+	
+	<body>
+		<header>
+			<a href="Home.html">
+				<img src="Ekia-Logo0000.png" alt="Welcome to EKIA!" class="center" width="250" height="100"/>
+			</a>
+			<hr/>
+		</header>
+		
+		<nav>
+			<table>
+				<tr>
+					<th><a href="abtus.html">About Us</a></th>
+					<th><a href="products.html">Products</a></th>
+					<th><a href="promo.html">Promotions</a></th>
+					<th><a href="cart.html">Cart</a></th>
+					<th><a href="help.html">Help</a></th>
+					<th><a href="login.html">Register/Log In</a></th>
+				</tr>
+			</table>
+			<hr/>
+		</nav>
+		
+		<section id="register">
+			<h1>Register</h1>
+			<p>Register to become an EKIA member now to enjoy special discounts up to 99%!</p>
+			<form name="Reg" id="Reg" method="post" onsubmit="return formValidation();">
+				<table>
+					<tr>
+						<td>Full Name (As in NRIC)<span>*</span></td>
+						<td><input type="text" name="fname" id="fname" maxlength="30"/></td>
+					</tr>
+					<tr>
+						<td>NRIC Number<span>*</span></td>
+						<td><input type="text" name="ic" id="ic" placeholder="xxxxxx-xx-xxxx"/></td>
+					</tr>
+					<tr>
+						<td>Email<span>*</span></td>
+						<td><input type="email" name="myEmail" id="myEmail" placeholder="example@gmail.com"/></td>
+					</tr>
+					<tr>
+						<td>Password<span>*</span></td>
+						<td><input type="password" name="pass" id="pass"/></td>
+					</tr>
+					<tr>
+						<td>Confirmed Password<span>*</span></td>
+						<td><input type="password" name="cpass" id="cpass"/></td>
+					</tr>
+					<tr>
+						<td>Address<span>*</span></td>
+						<td><textarea name="add" id="add" cols="45" rows="5"></textarea></td>
+					</tr>
+					<tr>
+						<td>Post Code<span>*</span></td>
+						<td>
+							<input type="text" name="pcode" id="pcode" placeholder="xxxxx"/>
+						</td>
+					</tr>
+					<tr>
+						<td>State<span>*</span></td>
+						<td>
+							<select name="state" id="state" size="1" placeholder="xxxxx"/>
+							<option selected="selected">Please Select</option>
+							<option>Johor</option>
+							<option>Kedah</option>
+							<option>Kelantan</option>
+							<option>Melaka</option>
+							<option>Negeri Sembilan</option>
+							<option>Pahang</option>
+							<option>Pulau Pinang</option>
+							<option>Perak</option>
+							<option>Perlis</option>
+							<option>Sabah</option>
+							<option>Sarawak</option>
+							<option>Selangor</option>
+							<option>Terengganu</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Tel (House)<span>*</span></td>
+						<td><input type="text" name="telh" id="telh" placeholder="xx-xxxxxxx"/> Tel (Office) <input type="text" name="telo" id="telo" placeholder="xx-xxxxxxx(Optional)"/></td>
+					</tr>
+					<tr>
+						<td>Tel (Mobile)<span>*<span></td>
+						<td><input type="text" name="telm" id="telm" placeholder="xxx-xxxxxxx"/></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="submit" name="btnRegister" id="btnRegister" value="Register"/>
+							<input type="reset" name="btnReset" id="btnReset" value="Reset"/>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><span>* Details Required</span></td>
+					</tr>
+				</table>
+			</form>
+			<br/>
+		</section>
+		
+		<section id="LogIn">
+			<h1>Log In</h1>
+			<p>Welcome back to EKIA!</p>
+			<form name="userLogIn" id="userLogIn" method="post" onsubmit="return LogInValidation();">
+				<table>
+					<tr>
+						<td>Email</td>
+						<td><input type="email" name="myEmail" id="userEmail"/></td>
+					</tr>
+					<tr>
+						<td>Password</td>
+						<td><input type="password" name="pass" id="userpass"/></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="submit" name="btnLogIn" id="btnLogIn" value="Log In"/>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</section>
+		
+		<footer>
+			<hr/>
+			<address>2020 &#169; EKIA International.</address>
+		</footer>
+	</body>
+	
+</html>
